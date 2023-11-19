@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="images/logo3.png">
+    <title>Future of AI</title>
+    <link rel="stylesheet" href="present.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro&family=Rubik&display=swap" rel="stylesheet">
+</head>
+<body dir="rtl"> 
+        <!-- bar styling -->
+        <div id="progressbar"></div>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script type="text/javascript">
+            $(window).scroll(function(){
+                var scroll = $(window).scrollTop(),
+                dh = $(document).height()
+                wh = $(window).height()
+                scrollPrecent = (scroll / (dh-wh))* 100;
+                $('#progressbar').css('height', scrollPrecent + '%');
+            })
+        </script>
+
+    <div class="hero">
+        <video autoplay loop muted plays-inline class="background">
+            <source src="videos/video2.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <!-- Start Nav Bar -->
+
+    <div class="container">
+        <div class="navbar">
+            <img src="images/logo3.png" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="home2.html">الصفحة الرئيسية</a></li>
+                    <li><a href="EnAbout.html">من نحن</a></li>
+                    <li><a href="English/Enpresent.html">English</a></li>
+                </ul>
+            </nav>
+            <!-- <img src="images/menu.png" class="menu-icon"> -->
+        </div>
+
+        <!-- End Nav Bar -->
+        <div class="content">
+            <div class="article">
+                <h1>الذكاء الاصطناعي في وقتنا الحالي</h1>
+                <p>
+                    الذكاء الاصطناعي في وقتنا الحالي أصبح أداة قوية يمكن استغلالها في مجموعة واسعة من المجالات. من الرعاية الصحية إلى التعليم، من الأعمال التجارية إلى الأمن، الذكاء الاصطناعي يمكن أن يساهم في تحسين الكفاءة والإنتاجية.
+                </p>
+            </div>
+            <div class="article-video">
+                
+                <p>
+                    في الرعاية الصحية، يمكن للذكاء الاصطناعي أن يساعد في تحليل البيانات الطبية وتوقع الأمراض وتحسين العلاجات. يمكن أيضاً استخدام الذكاء الاصطناعي في التعليم لتوفير تجربة تعليمية مخصصة لكل طالب.
+                </p>
+                <video autoplay loop plays-inline muted src="videos/video3.mp4" width="550" height="550" class="video1">
+            </div>
+            <div class="article">
+                <p>
+                    في الأعمال التجارية، يمكن للذكاء الاصطناعي أن يساعد في تحليل البيانات واتخاذ القرارات الاستراتيجية. يمكن أيضاً استخدام الذكاء الاصطناعي لتحسين خدمة العملاء من خلال الرد على الأسئلة وتقديم المعلومات بشكل أسرع وأكثر دقة.
+                </p>
+                <p>في مجال الأمن، يمكن للذكاء الاصطناعي أن يساعد في التعرف على الأنماط الغير طبيعية والتنبؤ بالهجمات الأمنية قبل حدوثها. يمكن أيضاً استخدام الذكاء الاصطناعي لتحسين الأمن السيبراني من خلال التعرف على البرامج الضارة والهجمات الفيروسية.</p>
+                <p>ومع ذلك، يجب أن نكون حذرين عند استخدام الذكاء الاصطناعي. يجب أن نضمن أن البيانات التي نستخدمها محمية وأننا نحترم خصوصية الأفراد. يجب أيضاً أن نكون على دراية بالتأثير الذي يمكن أن يكون للذكاء الاصطناعي على الوظائف وأن نضمن أن الفرص الجديدة التي يخلقها الذكاء الاصطناعي متاحة للجميع.</p>
+            </div>
+            <div class="article-end">
+                <p>
+                    في النهاية، الذكاء الاصطناعي هو أداة قوية يمكن استغلالها لتحسين حياتنا. ولكن، يجب أن نستخدمه بحذر ونضمن أننا نستفيد منه بأقصى قدر ممكن دون المساس بحقوق الأفراد أو الأمان.
+                </p>
+            </div>
+        </div>
+    </div>
+</html

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="images/logo3.png">
+    <title>Future of AI</title>
+    <link rel="stylesheet" href="pre-AI.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro&family=Rubik&display=swap" rel="stylesheet">
+</head>
+<body dir="rtl"> 
+    <!-- bar styling -->
+    <div id="progressbar"></div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+        $(window).scroll(function(){
+            var scroll = $(window).scrollTop(),
+            dh = $(document).height()
+            wh = $(window).height()
+            scrollPrecent = (scroll / (dh-wh))* 100;
+            $('#progressbar').css('height', scrollPrecent + '%');
+        })
+    </script>
+    <div class="hero">
+        <video autoplay loop muted plays-inline class="background">
+            <source src="videos/video2.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <!-- Start Nav Bar -->
+
+    <div class="container">
+        <div class="navbar">
+            <img src="images/logo3.png" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="home2.html">الصفحة الرئيسية</a></li>
+                    <li><a href="about.html">من نحن</a></li>
+                    <li><a href="English/EnPre-AI.html">English</a></li>
+                </ul>
+            </nav>
+            <!-- <img src="images/menu.png" class="menu-icon"> -->
+        </div>
+
+        <!-- End Nav Bar -->
+
+
+
+        <!-- Content -->
+        <div class="content">
+            <p>
+                هناك العديد من البرامج والتطبيقات التي تستخدم الذكاء الاصطناعي لتقديم خدمات ومنتجات مفيدة وممتعة للمستخدمين. بعض هذه البرامج والتطبيقات مجانية، وبعضها غير مجانية. سأذكر بعض الأمثلة في كل مجال:
+            </p>
+            <div class="article">
+                <h1>في مجال الطب</h1>
+                <p>
+                    في مجال الطب، يمكن استخدام الذكاء الاصطناعي لتشخيص الأمراض واقتراح العلاجات ومراقبة الحالة الصحية وتحليل البيانات الطبية وغيرها. مثال على برنامج غير مجاني في هذا المجال هو IBM Watson Health، الذي يستخدم الذكاء الاصطناعي لتحسين الرعاية الصحية والحد من التكاليف وزيادة الكفاءة. مثال على تطبيق مجاني في هذا المجال هو Ada، الذي يساعد المستخدمين في فهم أعراضهم والحصول على نصائح طبية موثوقة.
+                </p>
+            </div>
+            <div class="article">
+                <h1>في مجال التعليم</h1>
+                <p>
+                    في مجال التعليم، يمكن استخدام الذكاء الاصطناعي لتخصيص المناهج الدراسية وتقييم التعلم وتوفير التوجيه والدعم والتحفيز وغيرها. مثال على برنامج غير مجاني في هذا المجال هو Knewton، الذي يستخدم الذكاء الاصطناعي لإنشاء مسارات تعليمية شخصية لكل طالب. مثال على تطبيق مجاني في هذا المجال هو Duolingo، الذي يساعد المستخدمين في تعلم لغات جديدة بطريقة ممتعة وفعالة.
+                </p>
+            </div>
+            <div class="article">
+                <h1>في مجال الترفيه</h1>
+                <p>
+                    في مجال الترفيه، يمكن استخدام الذكاء الاصطناعي لإنشاء محتوى جديد ومبتكر ومخصص، مثل الألعاب والأفلام والموسيقى والفن وغيرها. مثال على برنامج غير مجاني في هذا المجال هو Adobe Photoshop، الذي يستخدم الذكاء الاصطناعي لتحسين وتعديل وإنشاء الصور. مثال على تطبيق مجاني في هذا المجال هو FaceApp، الذي يساعد المستخدمين في تغيير مظهرهم بطرق مختلفة، مثل الشيخوخة والتجميل والتبديل بين الجنسين.
+                </p>
+            </div>
+            <div class="article-end">
+                <p>
+                    هذه بعض الأمثلة عن برامج وتطبيقات الذكاء الاصطناعي المجانية وغير المجانية في كل المجالات. أتمنى أن يكون مقالي مفيدا ومثيرا للاهتمام
+                </p>
+                <!-- <img src="images/man.jpg" alt="the beginning" width="500" height="480" class="man-image"> -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
